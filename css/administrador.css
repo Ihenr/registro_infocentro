@@ -1,0 +1,135 @@
+body{
+    background-image: url('../img/3.jpeg');
+
+}
+#titulo{
+    width: 100px;
+    height: 40px;
+}
+
+.alert-info{
+    width: 760px;
+    height: 100px;
+    position: center;
+    background: #3b4887;
+    top: 25%;
+    left: 18%;
+    padding: 70px 30px;
+    border-radius: 15px;
+    margin: 110px;
+
+}
+.alert-info .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h2{
+    text-align: center;
+    color: #efeeee;
+    font-family: "Homer Simpson UI";
+    font-size: 40px;
+}
+h3{
+    font: small-caps 100%/200% serif;
+    text-align: center;
+    font-size: 25px;
+    color: #070707;
+}
+section label{
+    font-size: 20px;
+    color: #dedede;
+    margin: 5px;
+}
+section input{
+    font-size: 16px;
+    color: #231a1a;
+    border-radius: 8px;
+    border: none;
+}
+#bus{
+    width: 570px;
+    position: center;
+    background: #4788a8;
+    top: -10%;
+    left: 15%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 20px ;
+}
+#tabla_resultado{
+    width: 880px;
+    left: 50%;
+    margin: 5px auto;
+    border-radius: 5%;
+}
+table {
+    margin: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+    font-size: 15px;
+}
+table td {
+    transition: all .5s;
+}
+.table {
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 537px;
+}
+.table th,
+.table td {
+    border: 1px solid #e1edff;
+    padding: 7px 17px;
+}
+.table caption {
+    margin: 7px;
+}
+
+.table tbody td {
+    color: #000000;
+}
+.table tbody td:first-child,
+.table tbody td:nth-child(4),
+.table tbody td:last-child {
+    text-align: right;
+}
+.table tbody tr:nth-child(even) td {
+    background-color: #f4fbff;
+}
+.table tbody tr:hover td {
+    background-color: #acac39;
+    border-color: #113574;
+}
+
+/* Table Footer */
+.table tfoot th {
+    background-color: #cfdae2;
+    text-align: right;
+}
+.table tfoot th:first-child {
+    text-align: left;
+}
+.table tbody td:empty
+{
+    background-color: #9c2828;
+}
+tr:nth-child(odd){
+    background-color: #b1afaf;
+}
+h1{
+    background-image: url('../img/info13.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    width: 565px;
+    height: 500px;
+    text-align: center;
+    color: #cb941a;
+    font-family: "Homer Simpson UI";
+    font-size: 30px;
+    margin: 50px auto;
+}
+
+

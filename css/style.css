@@ -1,0 +1,100 @@
+body{
+    background-image: url('../img/info6.png');
+}
+#titulo{
+    width: 100px;
+    height: 40px;
+}
+
+.login-box {
+    width: 360px;
+    height: 560px;
+    background: #000;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    margin: 5px;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #31b422;
+    color: #000;
+}
+
+.login-box select{
+    width: 260px;
+    margin: 9px;
+    position: center;
+    border-radius: 10px;
+    border: none;
+}
+.login-box p{
+   text-align: center;
+   color: #faf9f9;
+    margin: 3px;
+}
+.login-box input[type="datetime"] {
+    width: 190px;
+    height: 28px;
+    background-color: #cadca4;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
